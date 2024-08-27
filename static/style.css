@@ -1,0 +1,121 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	background: linear-gradient(to right, rgb(38, 51, 61), rgb(50, 55, 65), rgb(33, 33, 78));
+}
+.chat {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.card {
+	height: 800px;
+	border-radius: 15px !important;
+	background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.user_info {
+	padding: 10px;
+}
+.msg_card_body {
+	overflow-y: auto;
+}
+.card-header {
+	border-radius: 15px 15px 0 0 !important;
+	border-bottom: 0 !important;
+}
+.card-footer {
+	border-radius: 0 0 15px 15px !important;
+	border-top: 0 !important;
+}
+.type_msg {
+	background-color: rgba(0, 0, 0, 0.3) !important;
+	border: 0 !important;
+	color: white !important;
+	height: 60px !important;
+	overflow-y: auto;
+}
+.type_msg:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+.send_btn {
+	border-radius: 0 15px 15px 0 !important;
+	background-color: rgba(0, 0, 0, 0.3) !important;
+	border: 0 !important;
+	color: white !important;
+	cursor: pointer;
+}
+.send_btn:hover {
+	color: rgb(189, 189, 189) !important;
+}
+.user_img {
+	height: 70px;
+	width: 70px;
+	border: 1.5px solid #f5f6fa;
+}
+.user_img_msg {
+	height: 40px;
+	width: 40px;
+	border: 1.5px solid #f5f6fa;
+}
+.img_cont {
+	position: relative;
+	height: 70px;
+	width: 70px;
+}
+.img_cont_msg {
+	height: 40px;
+	width: 40px;
+}
+.online_icon {
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	background-color: #22ff00;
+	border-radius: 50%;
+	bottom: 0.2em;
+	right: 0.4em;
+	border: 1.5px solid white;
+}
+.user_info span {
+	font-size: 20px;
+	color: white;
+}
+.user_info p {
+	font-size: 10px;
+	color: rgba(255, 255, 255, 0.5);
+}
+.msg_container {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 10px;
+	margin-right: 50px;
+	border-radius: 10px;
+	background-color: #338d47;
+	padding: 10px;
+	color: #fff;
+	position: relative;
+}
+.msg_container_send {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 10px;
+	border-radius: 10px;
+	background-color: #4ba19a;
+	padding: 10px;
+	color: #fff;
+	position: relative;
+}
+.msg_time {
+	position: absolute;
+	left: 0;
+	bottom: -18px;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 10px;
+}
+.msg_time_send {
+	position: absolute;
+	right: 0;
+	bottom: -18px;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 10px;
+}

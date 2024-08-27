@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "app.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/app.py"
+      }
+    ],
+    "env": {
+      "OPENAI_API_KEY": "sk-proj-7ArXjnbWjNFxbMSqQ4LVT3BlbkFJJioPngSsw6eD0OYmZvPm"
+    }
+  }
+  
