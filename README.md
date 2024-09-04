@@ -26,7 +26,7 @@ This repository contains a chatbot application built with Flask and LangChain, i
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
+   git clone <[repository-url](https://github.com/samanvay13/API-ChatBot.git)>
    cd <repository-directory>
    ```
 
